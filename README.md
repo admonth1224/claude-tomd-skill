@@ -2,8 +2,6 @@
 
 오피스/문서 파일(Word·Excel·PowerPoint·PDF·HWP/HWPX 한글·CSV·HTML·이미지)을 **AI가 읽기 좋은 마크다운(.md)** 으로 변환하고, **저장 폴더의 기존 노트와 동일한 YAML 프론트매터 스타일**을 자동으로 입혀 저장하는 [Claude Code](https://claude.com/claude-code) 스킬입니다.
 
-이 폴더를 통째로 전달받아(압축파일·USB·메일 등) 설치 스크립트만 실행하면 누구나 바로 쓸 수 있습니다. **인터넷 계정·GitHub 불필요.**
-
 ---
 
 ## ✨ 무엇을 하나요
@@ -19,7 +17,7 @@ Claude Code에서 `/tomd <파일명>` 한 줄이면:
 
 | 확장자 | 엔진 |
 |---|---|
-| `.docx .doc .pptx .ppt .xlsx .xls .pdf .csv .html .htm .png .jpg .json .xml .epub` | markitdown |
+| `.docx .doc .pptx .ppt .xlsx .xls .pdf .csv| markitdown |
 | `.hwp` (한글 바이너리) | pyhwp (`hwp5txt`) |
 | `.hwpx` (한글 XML) | 내장 ZIP/XML 파서 (의존성 없음) |
 | `.md .txt` | 그대로 통과 (프론트매터만 보강) |
